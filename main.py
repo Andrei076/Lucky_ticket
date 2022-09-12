@@ -18,7 +18,7 @@ def lucky_ticket(interval):
         if int(ticket[0]) + int(ticket[1]) + int(ticket[2]) == int(ticket[3])\
                 + int(ticket[4]) + int(ticket[5]):
             lucky_tickets += 1
-    print(f"Number of lucky tickets is {lucky_tickets}")
+    print(f"Number of lucky tickets is {lucky_tickets} in interval{interval}")
 
 
 if __name__ == '__main__':
